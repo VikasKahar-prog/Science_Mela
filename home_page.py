@@ -1,6 +1,7 @@
 import customtkinter as ctk 
 import tkinter as tk
 from PIL import Image,ImageTk
+#from name_page import NamePage
 
 class HomePage(ctk.CTk):
     def __init__(self):
@@ -40,9 +41,9 @@ class HomePage(ctk.CTk):
         self.logo_frame.place(x = 100, y = 600)
 
         self.text_frame = ctk.CTkFrame(self, fg_color="#ffbe0b", bg_color="#ffbe0b")
-        self.text1 = ctk.CTkLabel(self.text_frame, text="Let's play", text_color="#001d3d", font=ctk.CTkFont(family="jokerman",weight="bold", size=40))
+        self.text1 = ctk.CTkLabel(self.text_frame, text="Let's play", text_color="#001d3d", font=ctk.CTkFont(family="Garamond",weight="bold", size=40))
         self.text1.pack(side = tk.LEFT)
-        self.text2 = ctk.CTkLabel(self.text_frame, text="Quiz", text_color="#001d3d", font=ctk.CTkFont(family="jokerman",weight="bold", size=90))
+        self.text2 = ctk.CTkLabel(self.text_frame, text="Quiz", text_color="#001d3d", font=ctk.CTkFont(family="Garamond",weight="bold", size=90))
         self.text2.pack(padx = 10, side = tk.RIGHT)
         self.text_frame.place(x = 800, y = 250)
 
