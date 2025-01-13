@@ -56,10 +56,6 @@ class HomePage(ctk.CTk):
         self.ld_board_button.place(x = 1400, y = 30)
     
 
-
-
-
-
 if __name__ == "__main__":
     quiz_app = HomePage()
     quiz_app.mainloop()
